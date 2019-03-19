@@ -1,7 +1,7 @@
-a=5
-b=2
-sum=a+b
-print(sum)
-b=3
-sum=a+b
-print(sum)
+def add():
+    a = 2
+    b = 5
+    sum = a + b
+    print(sum)
+
+add()
