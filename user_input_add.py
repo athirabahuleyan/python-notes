@@ -1,15 +1,11 @@
-def sub(a, b):
-    diff = a - b
-    return diff
+def add(a, b):
+    sum = a + b
+    return sum
 
-a = input("enter first number:")
-b = input("enter second number:")
+a = input('first number:')
+b = input('second number:')
 a = int(a)
 b = int(b)
-q = sub(a, b)
-print("The difference of two numbers is:")
+q = add(a, b)
+print('Sum of the two numbers is :')
 print(q)
-print()
-p = input("enter your name:")
-print("The name entered is:")
-print(p)
